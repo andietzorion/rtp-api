@@ -1,0 +1,24 @@
+{
+  "name": "rtp-api",
+  "version": "1.0.0",
+  "description": "membangun restful api untuk rtp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "andietz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "module": "^1.2.5",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "save": "^2.9.0",
+    "sequelize": "^6.28.0"
+  }
+}
